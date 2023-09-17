@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 10rem; */
+}
+
+.item img {
+  /* width: 100%; */
+}
+
+
+.twoColumn {
+  grid-column: 3 / span 2;
+}

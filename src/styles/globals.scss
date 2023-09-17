@@ -1,0 +1,118 @@
+@import './variable';
+
+html {
+  width: 100%;
+  height: 100%;
+  body {
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../../public/fonts/Poppins/Poppins-Regular.ttf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Poppins-Bold';
+      src: url('../../public/fonts/Poppins/Poppins-Medium.ttf');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Avenir';
+      src: url('../../public/fonts/avenir_ff/AvenirLTStd-Roman.otf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    margin: 0px;
+    background-color: #343a40;
+    // background-color: #343a40;
+    color: $grey-100;
+
+    h6,
+    .h6,
+    h5,
+    .h5,
+    h4,
+    .h4,
+    h3,
+    .h3,
+    h2,
+    .h2,
+    h1,
+    .h1,
+    span,
+    p {
+      font-family: 'Inter', sans-serif;
+      color: $grey-100;
+    }
+
+    .font-poppin-bold {
+      font-family: 'Poppins-Bold', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .font-poppin {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .font-avenir {
+      font-family: 'Avenir', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    button {
+      text-decoration: unset !important;
+    }
+
+    a {
+      text-decoration: none;
+      color: $grey-100;
+    }
+
+    .text-purple {
+      color: $purple !important;
+    }
+
+    // font size
+    .text-22 {
+      font-size: 22px;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .text-20 {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .text-grey {
+      color: $grey-800;
+    }
+
+    .bg-black {
+      background: $black-700;
+    }
+  }
+  
+  
+  .carousel-caption {
+    bottom: 50%;
+  }
+}
+
+.custom-text-field .MuiInputLabel-root,
+.custom-text-field .MuiInputBase-root,
+.custom-text-field .MuiInput-underline:before,
+.custom-text-field .MuiInput-underline:hover:before {
+color: #F5F5F5;
+border-bottom-color: #F5F5F5;
+}
+
+.custom-text-field .MuiInputLabel-root.Mui-focused {
+color: #F5F5F5;
+}
